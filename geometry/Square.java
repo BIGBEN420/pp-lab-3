@@ -2,7 +2,7 @@ package geometry;
 
 public class Square extends Rectangle {
 
-    public Square(double sideLength) {
-        super(sideLength, sideLength);
+    public Square(double bok) {
+        super(bok, bok);
     }
 }
