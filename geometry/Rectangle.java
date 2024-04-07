@@ -8,11 +8,10 @@ public class Rectangle {
         this.length = length;
         this.width = width;
     }
-
+    
     public double calculateArea() {
         return length * width;
     } 
-
     public double calculatePerimeter() {
         return 2 * (length + width);
     }
