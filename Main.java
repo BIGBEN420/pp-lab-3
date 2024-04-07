@@ -1,7 +1,7 @@
 import geometry.Rectangle;
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(4.0, 3.0); 
+        Rectangle rectangle = new Rectangle(7.0, 2.0); 
         double area = rectangle.calculateArea();
         System.out.println("Pole prostokąta: " + area);
         double perimeter = rectangle.calculatePerimeter();
