@@ -11,11 +11,9 @@ public class ColoredCircle extends Circle {
     public String getColor() {
         return color;
     }
-
     public void setColor(String color) {
         this.color = color;
     }
-
     public Point getCenter() {
         return super.getCenter();
     }
