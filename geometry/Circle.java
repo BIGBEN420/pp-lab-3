@@ -16,6 +16,6 @@ public class Circle {
         return radius;
     }
     public double calculatePerimeter() {
-        return 2 * Math.PI * radius;
+        return Math.PI * 2 * radius;
     }
 }
