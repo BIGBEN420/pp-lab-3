@@ -12,15 +12,12 @@ public class Circle {
     public double calculateArea() {
         return Math.PI * radius * radius;
     }
-
     public Point getCenter() {
         return center;
     }
-
     public double getRadius() {
         return radius;
     }
-
     public double calculatePerimeter() {
         return 2 * Math.PI * radius;
     }
